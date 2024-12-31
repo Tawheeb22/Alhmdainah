@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+html {
+    background-image: url('hero-bg.jpg');
+    padding-top: 20px;
+    width: 1000px;
+    height: 40px;
+}
+.nav1 {
+     display: flex;
+    justify-content: space-between; 
+}
+.nav2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   z-index: 2;
+}
+header ul li {
+    margin-right: 30px;
+}
+header ul li a {
+    padding: 6px;
+}
+header ul li a:hover , .activ{
+    background: rgb(0, 173, 179);
+    border-radius: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.img2 {
+    top: 0;
+    width: 300px;
+}
+.gg{
+    color: rgb(219, 127, 127);
+    padding-top: 50px;
+    margin-left: 470px;
+
+}
+.logo{
+    color: white;
+    margin-left: 52rem;
+}
+.prag{
+    color: rgb(219, 127, 127);
+    margin-left: 450px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
